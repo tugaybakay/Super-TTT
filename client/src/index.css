@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.dialog-button {
+  @apply border px-4 py-2 rounded-md font-bold shadow-lg shadow-black hover:translate-y-1 hover:shadow-none cursor-pointer max-sm:px-3 max-sm:text-lg outline-none transition
+}
+
+.dialog-input {
+  @apply p-2 rounded-md border mr-2 shadow-lg  shadow-black max-sm:text-sm outline-none
+}
+
+.create-room-button {
+  @apply font-extrabold border-2 rounded-md p-2 text-8xl w-25 m-1 max-sm:text-5xl max-sm:p-1
+}
+
+.game-button {
+  @apply font-semibold text-2xl cursor-pointer hover:opacity-80 max-sm:text-lg transition-opacity
+}
+
+.disabled-game-button {
+  @apply font-semibold text-2xl opacity-80 max-sm:text-lg
+}
